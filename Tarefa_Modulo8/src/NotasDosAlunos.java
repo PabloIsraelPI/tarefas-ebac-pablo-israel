@@ -12,6 +12,6 @@ public class NotasDosAlunos {
 
         int mediaDasNotas = somaDasNotas / 4;
 
-        System.out.println(mediaDasNotas);
+        System.out.println("A média das notas é:" + mediaDasNotas);
     }
 }
