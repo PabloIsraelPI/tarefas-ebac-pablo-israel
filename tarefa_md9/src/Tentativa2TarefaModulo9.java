@@ -3,7 +3,7 @@ public class Tentativa2TarefaModulo9 {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Insira o valor a srguir:");
+    System.out.println("Insira o valor a seguir:");
 
         int valor = scanner.nextInt();
 
@@ -14,6 +14,7 @@ public class Tentativa2TarefaModulo9 {
         Long valor2 = (long) valor;
         System.out.println("[Wrapper]" + valor2);
 
+scanner.close();
 
     }
 }
