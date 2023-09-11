@@ -12,7 +12,7 @@ public abstract class Car {
 
     public void startEngine(){
         System.out.println(getClass().getSimpleName());
-        System.out.println("The " + fuelSource + " engine has been started, and is ready to utilize " + horsePower + " horsepowers.n" );
+        System.out.println("The " + fuelSource + " engine has been started, and is ready to utilize " + horsePower + " horsepower.n" );
     }
     public void clean(){
         System.out.println("Car has been cleaned, and the " + color.toLowerCase() + " color shines");
