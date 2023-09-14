@@ -2,18 +2,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 abstract class Carro {
-    //Adiciona atributos a classe abstrata Carro
+    //Adiciona variaveis a classe abstrata Carro
     private String marca;
     private String modelo;
     private int ano;
 
-    // Construtor dos atributos
+    // Construtor das variaveis
     public Carro(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
     }
-    // Getters de cada atributo
+    // métodos Getters de cada variavel
     public String getMarca() {
         return marca;
     }
