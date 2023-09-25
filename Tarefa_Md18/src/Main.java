@@ -3,6 +3,6 @@ public class Main {
 
         @tabela value = "tabelaSemanal";
 
-        System.out.println(:D);
+        System.out.println(":D");
     }
 }
