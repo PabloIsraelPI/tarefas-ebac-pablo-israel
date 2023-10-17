@@ -1,3 +1,0 @@
-@Tabela
-public class ClasseComaAnotacao {
-}
