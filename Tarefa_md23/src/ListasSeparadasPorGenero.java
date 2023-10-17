@@ -3,13 +3,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ListasSeparadasPorGenero {
-    private List<String> nomesMasculinos = new ArrayList<>();
-    private List<String> nomesFemininos = new ArrayList<>();
 
-    public List<String> getNomesFemininos() {
-        return nomesFemininos;
-    }
-
+    public List<String> nomesMasculinos = new ArrayList<>();
+    public List<String> nomesFemininos = new ArrayList<>();
+    
     public static void main(String[] args) {
         ListasSeparadasPorGenero programa = new ListasSeparadasPorGenero();
         Scanner scanner = new Scanner(System.in);
@@ -44,12 +41,6 @@ public class ListasSeparadasPorGenero {
 
         System.out.println("Nomes Masculinos: " + programa.nomesMasculinos);
         System.out.println("Nomes Femininos: " + programa.nomesFemininos);
-
-        List<String> segundaLista = new ArrayList<>();
-
-        programa.nomesFemininos.forEach(item -> segundaLista.add(item));
-
-        System.out.println("Segunda lista:" + segundaLista);
 
         scanner.close();
     }
